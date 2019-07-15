@@ -6,7 +6,7 @@ var port = process.env.PORT || '3000';
 var app = express();
 //listens for any requests to our port 
 var server = app.listen(port, function(){
-    console.log('listening for requests on port 4000,');
+    console.log('listening for requests on port ' + port);
 });
 
 // Static files
