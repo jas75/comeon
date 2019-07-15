@@ -1,10 +1,11 @@
 var express = require('express');
 var socket = require('socket.io');
+var port = normalizePort(process.env.PORT || '3000');
 
 // Express app setup
 var app = express();
 //listens for any requests to our port 
-var server = app.listen(4000, function(){
+var server = app.listen(port, function(){
     console.log('listening for requests on port 4000,');
 });
 
