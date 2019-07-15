@@ -1,6 +1,6 @@
 var express = require('express');
 var socket = require('socket.io');
-var port = process.env.PORT || '3000';
+var port = '3000';
 
 // Express app setup
 var app = express();
